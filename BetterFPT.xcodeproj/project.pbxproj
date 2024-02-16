@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A323D14E2B7F547400A74969 /* superinfCost.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A323D14C2B7F547400A74969 /* superinfCost.mlmodel */; };
+		A323D14F2B7F547400A74969 /* superTurnx.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A323D14D2B7F547400A74969 /* superTurnx.mlmodel */; };
 		A3F4A4912B6C4A860006A965 /* BetterFPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F4A4902B6C4A860006A965 /* BetterFPTApp.swift */; };
 		A3F4A4932B6C4A860006A965 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F4A4922B6C4A860006A965 /* ContentView.swift */; };
 		A3F4A4952B6C4A880006A965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F4A4942B6C4A880006A965 /* Assets.xcassets */; };
 		A3F4A4982B6C4A880006A965 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F4A4972B6C4A880006A965 /* Preview Assets.xcassets */; };
-		A3F4A49F2B6C4C660006A965 /* realdeal.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A3F4A49E2B6C4C660006A965 /* realdeal.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A323D14C2B7F547400A74969 /* superinfCost.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = superinfCost.mlmodel; sourceTree = "<group>"; };
+		A323D14D2B7F547400A74969 /* superTurnx.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = superTurnx.mlmodel; sourceTree = "<group>"; };
 		A3F4A48D2B6C4A860006A965 /* BetterFPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterFPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F4A4902B6C4A860006A965 /* BetterFPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterFPTApp.swift; sourceTree = "<group>"; };
 		A3F4A4922B6C4A860006A965 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A3F4A4942B6C4A880006A965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3F4A4972B6C4A880006A965 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A3F4A49E2B6C4C660006A965 /* realdeal.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = realdeal.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			children = (
 				A3F4A4902B6C4A860006A965 /* BetterFPTApp.swift */,
 				A3F4A4922B6C4A860006A965 /* ContentView.swift */,
-				A3F4A49E2B6C4C660006A965 /* realdeal.mlmodel */,
+				A323D14C2B7F547400A74969 /* superinfCost.mlmodel */,
+				A323D14D2B7F547400A74969 /* superTurnx.mlmodel */,
 				A3F4A4942B6C4A880006A965 /* Assets.xcassets */,
 				A3F4A4962B6C4A880006A965 /* Preview Content */,
 			);
@@ -141,7 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3F4A4932B6C4A860006A965 /* ContentView.swift in Sources */,
-				A3F4A49F2B6C4C660006A965 /* realdeal.mlmodel in Sources */,
+				A323D14F2B7F547400A74969 /* superTurnx.mlmodel in Sources */,
+				A323D14E2B7F547400A74969 /* superinfCost.mlmodel in Sources */,
 				A3F4A4912B6C4A860006A965 /* BetterFPTApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
